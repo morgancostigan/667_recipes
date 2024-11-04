@@ -1,0 +1,27 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li::marker {
+    color: rgb(226, 80, 43);
+}
+
+.sidedish {
+    color: rgb(10, 81, 173);
+}
+
+.dessert {
+    color: darkorchid;
+}
+
+.pasta {
+    color: darkred;
+}
