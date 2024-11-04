@@ -10,6 +10,10 @@ h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+p {
+    background-color: rgb(212, 224, 245);
+}
+
 li::marker {
     color: rgb(226, 80, 43);
 }
