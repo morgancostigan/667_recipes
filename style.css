@@ -18,6 +18,17 @@ li::marker {
     color: rgb(226, 80, 43);
 }
 
+img {
+    border: 5px solid;
+    border-color: rgb(212, 224, 245);
+    /* border-image: 10px solid;
+    border-image-source: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiBbsQVN3eQCXM59kaLPboiwc0c9KBnq1W2Q&s"); */
+}
+
+.backgroundimage {
+    position: absolute;
+}
+
 .sidedish {
     color: rgb(10, 81, 173);
 }
