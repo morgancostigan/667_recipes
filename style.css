@@ -18,15 +18,39 @@ li::marker {
     color: rgb(226, 80, 43);
 }
 
+.imagestack{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 img {
-    border: 5px solid;
-    border-color: rgb(212, 224, 245);
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     /* border-image: 10px solid;
     border-image-source: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiBbsQVN3eQCXM59kaLPboiwc0c9KBnq1W2Q&s"); */
 }
 
-.backgroundimage {
-    position: absolute;
+.foodshot {
+    margin-top: -307px;
+    box-sizing: border-box;
+    border: 15px solid "invert"; 
+}
+
+.box {
+    display: block;
+    box-sizing: border-box;
+    border: 25px solid rgb(158, 228, 132);
+    margin-left: auto;
+    margin-right: auto;
+    height: 282px;
+    width: 450px;
+}
+
+.invert {
+    mix-blend-mode: difference;
 }
 
 .sidedish {
