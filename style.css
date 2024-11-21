@@ -19,6 +19,8 @@ li::marker {
 }
 
 .imagestack{
+    margin-top: 50px;
+    margin-bottom: 70px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -27,26 +29,39 @@ li::marker {
 img {
     display: block;
     width: 500px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     /* border-image: 10px solid;
     border-image-source: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiBbsQVN3eQCXM59kaLPboiwc0c9KBnq1W2Q&s"); */
 }
+.foodcrop {
+    width: 500px;
+    height: 350px;
+    background: url('image.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .foodshot {
-    margin-top: -307px;
+
     box-sizing: border-box;
-    border: 15px solid "invert"; 
 }
 
 .box {
+    margin-top: -325px;
+    margin-bottom: 50px;
     display: block;
+    transform: rotate(45deg);
     box-sizing: border-box;
-    border: 25px solid rgb(158, 228, 132);
+    border: 15px solid rgb(120, 224, 250);
     margin-left: auto;
     margin-right: auto;
-    height: 282px;
-    width: 450px;
+    height: 300px;
+    width: 300px;
 }
 
 .invert {
